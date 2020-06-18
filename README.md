@@ -12,9 +12,11 @@ using a naive prime factorization algorithm.
 |sequential|2000     |32    |32686 |2577        |
 |primitives|2000     |32    |32686 |962         |
 |rx        |2000     |32    |32686 |1103        |
+|futures   |2000     |32    |32686 |1729        |
 |sequential|2000     |48    |36381 |342402      |
 |primitives|2000     |48    |36381 |190726      |
 |rx        |2000     |48    |36381 |187827      |
+|futures   |2000     |48    |36381 |182268      |
 |sequential|2000     |64    |9839  |12156237    |
 |primitives|2000     |64    |9839  |6783499     |
 |rx        |2000     |64    |9839  |6867575     |
