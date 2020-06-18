@@ -29,5 +29,10 @@ fun main() {
         result = rxFactorization(fileName)
         elapsedTime = (System.currentTimeMillis() - startTime)
         profilingFile.appendText("rx,${nNumbers},${it},${result},${elapsedTime}\n")
+
+        startTime = System.currentTimeMillis()
+        result = futureFactorization(fileName)
+        elapsedTime = (System.currentTimeMillis() - startTime)
+        profilingFile.appendText("futures,${nNumbers},${it},${result},${elapsedTime}\n")
     }
 }
